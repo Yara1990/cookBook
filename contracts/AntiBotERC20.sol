@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract PepeWojak is ERC20, ERC20Burnable, ERC20Permit, Ownable {
+contract AntiBotERC20 is ERC20, ERC20Burnable, ERC20Permit, Ownable {
     mapping(address => uint256) private _buyBlock;
     bool public checkBot = true;
 
